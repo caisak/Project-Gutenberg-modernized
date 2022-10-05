@@ -1,0 +1,28 @@
+body::before {
+    display: block;
+    content: '';
+    height: 2rem;
+}
+
+.card-icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+.center-stuff {
+    align-items: center;
+    justify-content: center;
+}
+
+
+.font-logo {
+    font-family: IM Fell English, serif;
+}
+
+a {
+    color: black;
+}
+
+i {
+    color: black;
+}
