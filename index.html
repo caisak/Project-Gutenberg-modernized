@@ -16,40 +16,41 @@
     <title>Project Gutenberg Front Page</title>
 </head>
 
-    <!--Navbar-->
+    
 <body>
+    <!--Navbar-->
     <nav class="navbar fixed-top navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand font-logo" href="file:///Users/caisamunozkohlin/Documents/Medieinstitutet/Projekt%202%20Caisa%20Isabella/index.html">
-            <i class="fa-solid fa-book-open" alt="Logo" width="30" height="24" class="d-inline-block align-text-top"></i>
+      <div class="container-fluid">
+        <a class="navbar-brand font-logo" href="file:///Users/caisamunozkohlin/Documents/Medieinstitutet/Projekt%202%20Caisa%20Isabella/index.html">
+        <i class="fa-solid fa-book-open d-inline-block align-text-top"></i>
               Project Gutenberg
-          </a>
+        </a>
+        <!--Search button sm/md-->
+      <span>
+        <div class="container dropdown d-lg-none">
+          <button class="btn btn-success-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-target="#searchbuttontoggler" aria-controls="searchbuttontoggler" 
+          aria-expanded="false" 
+          aria-label="Toggle navigation">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
 
-    <!--Search button sm/md-->
-
-    <span>
-      <div class="container dropdown d-lg-none">
-      <button class="btn btn-success-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-target="#searchbuttontoggler" aria-controls="searchbuttontoggler" 
-      aria-expanded="false" 
-      aria-label="Toggle navigation">
-        <i class="fa-solid fa-magnifying-glass"></i>
-      </button>
-
-      <div class="dropdown-menu " id="searchbuttontoggler">
-        <form class="d-flex" role="search">
+        <div class="dropdown-menu " id="searchbuttontoggler">
+          <form class="d-flex" role="search">
           <div class="container me-auto mb-2">
-          <input class="dropdown  form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-secondary" type="submit">Search</button>
+            <input
+            class="dropdown form-control me-2" type="search" placeholder="Search" 
+            aria-label="Search">
+            <button class="btn btn-secondary" type="submit">Search</button>
         </div>
         </form>
-      </div>
-    </div>
+        </div>
+        </div>
         </span>
 
         <!--Navbar continued / hamburger menu-->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item dropdown">
@@ -80,7 +81,7 @@
                               Help
                             </a>
                             <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="file:///Users/caisamunozkohlin/Documents/Medieinstitutet/Projekt%202%20Caisa%20Isabella/contact.html">Frequently Asked Questions</a></li>
+                              <li><a class="dropdown-item" href="file:///Users/caisamunozkohlin/Documents/Medieinstitutet/Projekt%202%20Caisa%20Isabella/contact.html#FAQ-direct">Frequently Asked Questions</a></li>
                               <li><a class="dropdown-item" href="file:///Users/caisamunozkohlin/Documents/Medieinstitutet/Projekt%202%20Caisa%20Isabella/contact.html#contact-us-direct">Contact Us</a></li>
                               <li><a class="dropdown-item" href="#">Copyright Procedures</a></li>
                               <li><a class="dropdown-item" href="#">Errata, Fixes and Bug Reports</a></li>
@@ -98,7 +99,7 @@
             </form>
           </div>
         </div>
-      </nav>
+    </nav>
 
     <!--Showcase-->
     <section class="bg-light text-dark p-5 p-lg-0  pt-lg-5 text-center text-sm-start">
@@ -173,7 +174,7 @@
 </section>
 
 <!--Content section part 1-->
-<section id="learn" class="p-5 bg-light">
+<section id="info-file" class="p-5 bg-light">
     <div class="container">
         <div class="row align-items-center justify-content-between">
             <div class="col-md p-5">
@@ -197,7 +198,7 @@
 </section>
 
 <!--content section 2-->
-<section id="learn" class="p-5 bg-secondary">
+<section id="info-mission" class="p-5 bg-secondary">
     <div class="container">
         <div class="row align-items-center justify-content-between text-light">
             <div class="col-md p-5">
@@ -221,7 +222,7 @@
 </section>
 
 <!--content section 3-->
-<section id="learn" class="p-5 bg-light">
+<section id="info-donate" class="p-5 bg-light">
     <div class="container">
         <div class="row align-items-center justify-content-between">
           <div class="col-md">
