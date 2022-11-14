@@ -1,287 +1,383 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="file:///Users/caisamunozkohlin/Downloads/bootstrap-5.2.2-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link href="CSS/main.css" rel="stylesheet">
+    <link href="CSS/over1024.css" rel="stylesheet">
+    <link href="CSS/under1024.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <script type="javascript" src="file:///Users/caisamunozkohlin/Downloads/bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Roboto:wght@100&display=swap"
+      rel="stylesheet">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/965aa857ab.js" crossorigin="anonymous"></script>
-    <title>FAQ and Contact Us</title>
-</head>
+    <title>FAQ and contact us</title>
+  </head>
 
 
-    <!--Navbar-->
+<!--Navbar-->
+
 <body class="bg-light">
-    <nav class="navbar fixed-top navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand font-logo" href="file:///Users/caisamunozkohlin/Documents/Medieinstitutet/Projekt%202%20Caisa%20Isabella/index.html">
-            <i class="fa-solid fa-book-open d-inline-block align-text-top"></i>
-              Project Gutenberg
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+  <nav class="navbar fixed-top navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand font-logo"
+        href="index.html">
+        <i class="fa-solid fa-book-open d-inline-block align-text-top"></i>
+        Project Gutenberg
+      </a>
+
+      <!--Search button sm/md-->
+      <span>
+        <div class="container dropdown d-lg-none">
+          <button class="btn btn-success-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+            data-bs-target="#searchbuttontoggler" aria-controls="searchbuttontoggler" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fa-solid fa-magnifying-glass"></i>
           </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Books
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Browse Categories</a></li>
-                      <li><a class="dropdown-item" href="#">Frequently Downloaded</a></li>
-                      <li><a class="dropdown-item" href="#">Offline Catalogs</a></li>
-                      <li><a class="dropdown-item" href="#">File Formats</a></li>
-                    </ul>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          About
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">About Project Gutenberg</a></li>
-                          <li><a class="dropdown-item" href="#">Collection Development</a></li>
-                          <li><a class="dropdown-item" href="#">History & Philosophy</a></li>
-                          <li><a class="dropdown-item" href="#">Permissions & License</a></li>
-                          <li><a class="dropdown-item" href="#">Privacy Policy</a></li>
-                          <li><a class="dropdown-item" href="#">Policies</a></li>
-                          <li><a class="dropdown-item" href="#">Terms of Use</a></li>
-                        </ul>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Help
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#FAQ-direct">Frequently Asked Questions</a></li>
-                              <li><a class="dropdown-item" href="#contact-us-direct">Contact Us</a></li>
-                              <li><a class="dropdown-item" href="#">Copyright Procedures</a></li>
-                              <li><a class="dropdown-item" href="#">Errata, Fixes and Bug Reports</a></li>
-                              <li><a class="dropdown-item" href="#">Public Domain eBook Submissions</a></li>
-                              <li><a class="dropdown-item" href="#">Submitting Your Own Work</a></li>
-                              <li><a class="dropdown-item" href="#">The Attic</a></li>
-                            </ul>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Donate</a>
-                              </li>
-            </ul>
+
+          <div class="dropdown-menu " id="searchbuttontoggler">
             <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search eBooks" aria-label="Search">
-              <button class="btn btn-secondary" type="submit">Search</button>
+              <div class="container me-auto mb-2">
+                <input class="dropdown form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-secondary" type="submit">Search</button>
+              </div>
             </form>
           </div>
         </div>
-      </nav>
-
-<!--Accordion FAQ part 1-->
-    <div class="container-fluid mt-4 col-lg-10 col-md-10">
-      <h1 class="text-center">Frequently Asked Questions</h1>
-        <br>
-        <h4 class="text-center" id="FAQ-direct">About Project Gutenberg</h4>
-      <div class="accordion m-1" id="accordion1">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
-            <button 
-            class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" 
-            aria-expanded="true" 
-            aria-controls="collapseOne">
-              What is Project Gutenberg?
-            </button>
-          </h2>
-          <div 
-          id="collapseOne" 
-          class="accordion-collapse collapse show" 
-          aria-labelledby="headingOne" data-bs-parent="#accordion1">
-            <div class="accordion-body">
-              <strong>Project Gutenberg is an online library of free electronic books, or eBooks.</strong> Project Gutenberg is a volunteer effort to digitize, archive, and distribute literary works.
-
-              The mission of Project Gutenberg is: To encourage the creation and distribution of eBooks.
-              
-              Read more about Project Gutenberg in the 
-              <a href="#">About</a> section.
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
-            <button 
-            class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" 
-            aria-expanded="false" 
-            aria-controls="collapseTwo">
-              Where did Project Gutenberg come from?
-            </button>
-          </h2>
-          <div 
-          id="collapseTwo" 
-          class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion2">
-            <div class="accordion-body">
-              <strong>1971, Michael Hart was given $100,000,000 worth of computer time on a mainframe of the era.</strong> Trying to figure out how to put these very expensive hours to good use, he envisaged a time when there would be millions of connected computers, and typed in the Declaration of Independence (all in upper case–there was no lower case available!).
-              <br><br>
-              His idea was that everybody who had access to a computer could have a copy of the text. Now, decades later, his copy of the <a href="#"> Declaration of Independence</a> (with lower-case added!) is still available to anyone, anywhere.
-              <br><br>
-              During the 1970s, Michael added some more classic American texts, and through the 80s worked on the Bible and the collected works of Shakespeare. That edition of Shakespeare was never released, due to copyright law changes, but others followed.
-              <br><br>
-              Starting in 1991, Project Gutenberg began to take its current form, with many different texts and defined production targets for new eBooks. The target for 1991 was one book per month. 1992’s target was two books each month. This target doubled every year through 1996, when it hit 32 books a month.
-              <br><br>
-              There is more history and background in the <a href="#">Background, History and Philosophy</a> section.
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
-            <button 
-            class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" 
-            aria-expanded="false" 
-            aria-controls="collapseThree">
-              Who runs Project Gutenberg?
-            </button>
-          </h2>
-          <div 
-          id="collapseThree" 
-          class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion3">
-            <div class="accordion-body">
-              <strong>The Project Gutenberg Literary Archive Foundation is a 501(c)(3) organization, which operates Project Gutenberg.</strong>
-              Dr. Gregory B. Newby is our volunteer CEO. Professor Michael Hart was our Founder and Executive Director. Michael died in 2011, and you can read obituary and memorial information here.
-              <br><br>
-              In terms of the day-to-day production of eBooks, our volunteers run themselves. :-) They produce books, and submit them when completed. The Posting Team, known as “whitewashers” after Mark Twain’s Tom Sawyer, checks submitted eBooks and shepherds them online.
-
- 
-            </div>
-          </div>
-        </div>
-            <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFour">
-              <button 
-              class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" 
-              aria-expanded="false" 
-              aria-controls="collapseFour">
-                How many people are involved with Project Gutenberg?
-              </button>
-                </h2>
-                <div 
-                id="collapseFour" 
-                class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordion4">
-                <div class="accordion-body">
-                <strong>Over the years, we estimate that over 10,000 people have helped Project Gutenberg,</strong>
-                either by submitting new eBooks, or having some other role in support of Project Gutenberg.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFive">
-              <button 
-              class="accordion-button collapsed" 
-              type="button" 
-              data-bs-toggle="collapse" data-bs-target="#collapseFive" 
-              aria-expanded="false" 
-              aria-controls="collapseFive">
-                What is the relationship between Project Gutenberg, Project Gutenberg of Canada, Project Gutenberg of Europe, Projekt Gutenberg-DE, Project Gutenberg of Australia, and Project Runeberg?
-              </button>
-                </h2>
-                <div 
-                id="collapseFive" 
-                class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordion5">
-                <div class="accordion-body">
-                <strong>Those are all entirely separate organizations.</strong>
-                 In many cases, Michael Hart gave permission for them to use the “Project Gutenberg” name, which is a registered trademark.
-                 <br><br>
-                 These sites operate within the copyright rules of their respective countries, and may have specific focus on particular types of national works or languages.
-              </div>
-            </div>
-          </div>
+      </span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Books
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Browse Categories</a></li>
+              <li><a class="dropdown-item" href="#">Frequently Downloaded</a></li>
+              <li><a class="dropdown-item" href="#">Offline Catalogs</a></li>
+              <li><a class="dropdown-item" href="#">File Formats</a></li>
+            </ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              About
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">About Project Gutenberg</a></li>
+              <li><a class="dropdown-item" href="#">Collection Development</a></li>
+              <li><a class="dropdown-item" href="#">History & Philosophy</a></li>
+              <li><a class="dropdown-item" href="#">Permissions & License</a></li>
+              <li><a class="dropdown-item" href="#">Privacy Policy</a></li>
+              <li><a class="dropdown-item" href="#">Policies</a></li>
+              <li><a class="dropdown-item" href="#">Terms of Use</a></li>
+            </ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Help
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="contact.html">Frequently Asked Questions</a></li>
+              <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+              <li><a class="dropdown-item" href="#">Copyright Procedures</a></li>
+              <li><a class="dropdown-item" href="#">Errata, Fixes and Bug Reports</a></li>
+              <li><a class="dropdown-item" href="#">Public Domain eBook Submissions</a></li>
+              <li><a class="dropdown-item" href="#">Submitting Your Own Work</a></li>
+              <li><a class="dropdown-item" href="#">The Attic</a></li>
+            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Donate</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search eBooks" aria-label="Search">
+          <button class="btn btn-secondary" type="submit">Search</button>
+        </form>
       </div>
     </div>
+  </nav>
 
-<!--Accordion FAQ part 2-->
-    <div class="container-fluid col-lg-10 col-md-10">
-        <br>
-        <h4 class="text-center">
-          About Project Gutenberg Publications</h4>
-        <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingSix">
-                <button 
-                class="accordion-button collapsed" 
-                type="button" 
-                data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" 
-                aria-controls="collapseSix">
-                    Does Project Gutenberg publish only books?
-                </button>
-              </h2>
-              <div 
-              id="collapseSix" 
-              class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>Yes.</strong> 
-                  In the past, Project Gutenberg also published other cultural works like movies and music, but the bulk of our collection is books, and there are other online projects that do a better job with other types of content.
-                  <br><br>
-                  For more details, see the <a href="#"> collection development</a> policy.  
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingSeven">
-                <button 
-                class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                    What books does Project Gutenberg publish?
-                </button>
-              </h2>
-              <div 
-              id="collapseSeven" 
-              class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>Any books that meet our collection development policy, and that our volunteers want to work on.</strong> 
-                  We do not publish any books that still have copyright protection. This generally means that our texts are taken from books published 95+ years ago. (It’s more complicated than that, as our <a href="#"> Copyright FAQ</a> explains, but 95+ criterion is a good first rule-of-thumb.)
-                  <br><br>
-                  This means that you won’t find the latest bestsellers or modern computer books here. You will find the classic books from the start of the 20th century and previous centuries, from authors like Shakespeare, Poe, Dante, as well as well-loved favorites like the Sherlock Holmes stories by Sir Arthur Conan Doyle, the Tarzan and Mars books of Edgar Rice Burroughs, Alice’s adventures in Wonderland as told by Lewis Carroll, and thousands of others.
-                  <br><br>
-                  These books are chosen by our volunteers. Simply, a volunteer decides that a certain book should be in the library, obtains the book and does the work necessary to turn it into an eBook. Most of our new eBooks now come from <a href="#">Distributed Proofreaders</a>. Historically, we had many “solo” eBook producers, but this is less frequently seen these days.
-                  <br><br>
-                  Two websites have a description of the copyright process, and the various checks and requirements for uploading a new eBook that has been given a copyright clearance. For copyright, see <a href="#">copy.pglaf.org</a>. For uploads and compliance checks, see <a href="#">upload.pglaf.org</a>.
-                </div>
-              </div>
-            </div>
+  <!--Accordion FAQ part 1-->
+  <div class="container-fluid mt-4 col-lg-10 col-md-10">
+    <h1 class="text-center">Frequently Asked Questions</h1>
+    <br>
+    <h4 class="text-center" id="FAQ-direct">About Project Gutenberg</h4>
+    <div class="accordion m-1" id="accordion1">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            What is Project Gutenberg?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+          data-bs-parent="#accordion1">
+          <div class="accordion-body">
+            <strong>Project Gutenberg is an online library of free electronic books, or eBooks.</strong> Project
+            Gutenberg is a volunteer effort to digitize, archive, and distribute literary works.
+
+            The mission of Project Gutenberg is: To encourage the creation and distribution of eBooks.
+
+            Read more about Project Gutenberg in the
+            <a href="#">About</a> section.
           </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Where did Project Gutenberg come from?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+          data-bs-parent="#accordion2">
+          <div class="accordion-body">
+            <strong>1971, Michael Hart was given $100,000,000 worth of computer time on a mainframe of the era.</strong>
+            Trying to figure out how to put these very expensive hours to good use, he envisaged a time when there would
+            be millions of connected computers, and typed in the Declaration of Independence (all in upper case–there
+            was no lower case available!).
+            <br><br>
+            His idea was that everybody who had access to a computer could have a copy of the text. Now, decades later,
+            his copy of the <a href="#"> Declaration of Independence</a> (with lower-case added!) is still available to
+            anyone, anywhere.
+            <br><br>
+            During the 1970s, Michael added some more classic American texts, and through the 80s worked on the Bible
+            and the collected works of Shakespeare. That edition of Shakespeare was never released, due to copyright law
+            changes, but others followed.
+            <br><br>
+            Starting in 1991, Project Gutenberg began to take its current form, with many different texts and defined
+            production targets for new eBooks. The target for 1991 was one book per month. 1992’s target was two books
+            each month. This target doubled every year through 1996, when it hit 32 books a month.
+            <br><br>
+            There is more history and background in the <a href="#">Background, History and Philosophy</a> section.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Who runs Project Gutenberg?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+          data-bs-parent="#accordion3">
+          <div class="accordion-body">
+            <strong>The Project Gutenberg Literary Archive Foundation is a 501(c)(3) organization, which operates
+              Project Gutenberg.</strong>
+            Dr. Gregory B. Newby is our volunteer CEO. Professor Michael Hart was our Founder and Executive Director.
+            Michael died in 2011, and you can read obituary and memorial information here.
+            <br><br>
+            In terms of the day-to-day production of eBooks, our volunteers run themselves. :-) They produce books, and
+            submit them when completed. The Posting Team, known as “whitewashers” after Mark Twain’s Tom Sawyer, checks
+            submitted eBooks and shepherds them online.
+
+
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            How many people are involved with Project Gutenberg?
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+          data-bs-parent="#accordion4">
+          <div class="accordion-body">
+            <strong>Over the years, we estimate that over 10,000 people have helped Project Gutenberg,</strong>
+            either by submitting new eBooks, or having some other role in support of Project Gutenberg.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            What is the relationship between Project Gutenberg, Project Gutenberg of Canada, Project Gutenberg of
+            Europe, Projekt Gutenberg-DE, Project Gutenberg of Australia, and Project Runeberg?
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFour"
+          data-bs-parent="#accordion5">
+          <div class="accordion-body">
+            <strong>Those are all entirely separate organizations.</strong>
+            In many cases, Michael Hart gave permission for them to use the “Project Gutenberg” name, which is a
+            registered trademark.
+            <br><br>
+            These sites operate within the copyright rules of their respective countries, and may have specific focus on
+            particular types of national works or languages.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Accordion FAQ part 2-->
+  <div class="container-fluid col-lg-10 col-md-10">
+    <br>
+    <h4 class="text-center">
+      About Project Gutenberg Publications</h4>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSix">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            Does Project Gutenberg publish only books?
+          </button>
+        </h2>
+        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Yes.</strong>
+            In the past, Project Gutenberg also published other cultural works like movies and music, but the bulk of
+            our collection is books, and there are other online projects that do a better job with other types of
+            content.
+            <br><br>
+            For more details, see the <a href="#"> collection development</a> policy.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSeven">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+            What books does Project Gutenberg publish?
+          </button>
+        </h2>
+        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Any books that meet our collection development policy, and that our volunteers want to work
+              on.</strong>
+            We do not publish any books that still have copyright protection. This generally means that our texts are
+            taken from books published 95+ years ago. (It’s more complicated than that, as our <a href="#"> Copyright
+              FAQ</a> explains, but 95+ criterion is a good first rule-of-thumb.)
+            <br><br>
+            This means that you won’t find the latest bestsellers or modern computer books here. You will find the
+            classic books from the start of the 20th century and previous centuries, from authors like Shakespeare, Poe,
+            Dante, as well as well-loved favorites like the Sherlock Holmes stories by Sir Arthur Conan Doyle, the
+            Tarzan and Mars books of Edgar Rice Burroughs, Alice’s adventures in Wonderland as told by Lewis Carroll,
+            and thousands of others.
+            <br><br>
+            These books are chosen by our volunteers. Simply, a volunteer decides that a certain book should be in the
+            library, obtains the book and does the work necessary to turn it into an eBook. Most of our new eBooks now
+            come from <a href="#">Distributed Proofreaders</a>. Historically, we had many “solo” eBook producers, but
+            this is less frequently seen these days.
+            <br><br>
+            Two websites have a description of the copyright process, and the various checks and requirements for
+            uploading a new eBook that has been given a copyright clearance. For copyright, see <a
+              href="#">copy.pglaf.org</a>. For uploads and compliance checks, see <a href="#">upload.pglaf.org</a>.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--FORM-->
+  <div class="cointainer-fluid ms-2 me-2">
+    <div class="text-center mt-5">
+      <h2 id="contact-us-direct">Contact Us</h2>
     </div>
 
-<!--FORM-->
-      <div class="cointainer-fluid ms-2 me-2">
-          <div class="text-center mt-5">
-              <h2 id="contact-us-direct">Contact Us</h2>
+    <div class="row justify-content-center my-4">
+      <div class="col-lg-8 col-md-8">
+        <form>
+          <label for="email" class="form-label">Email adress:</label>
+          <input type="email" class="form-control mb-4" id="email" placeholder="ex. laura@example.com">
+
+          <label for="name" class="form-lable">Name</label>
+          <input type="text" class="form-control mb-4" id="name" placeholder="ex. Laura">
+
+          <label for="subject" class="form-lable">Subject</label>
+          <select class="form-select mb-4" id="subject">
+            <option value="pricing" selected>Library</option>
+            <option value="content">Company</option>
+            <option value="other">Other</option>
+          </select>
+
+          <div class="form-floating mb-4 mt-5">
+            <textarea id="question" class="form-control" style="height: 140px;"></textarea>
+            <label for="question">Write your message here</label>
           </div>
 
-          <div class="row justify-content-center my-4">
-              <div class="col-lg-8 col-md-8">
-                  <form>
-                      <label for="email" class="form-label">Email adress:</label>
-                      <input type="email" class="form-control mb-4" id="email" placeholder="ex. laura@example.com">
-
-                      <label for="name" class="form-lable">Name</label>
-                      <input type="text" class="form-control mb-4" id="name" placeholder="ex. Laura">
-
-                      <label for="subject" class="form-lable">Subject</label>
-                      <select class="form-select mb-4" id="subject">
-                          <option value="pricing" selected>Library</option>
-                          <option value="content">Company</option>
-                          <option value="other">Other</option>
-                      </select>
-                      
-                      <div class="form-floating mb-4 mt-5">
-                          <textarea id="question" class="form-control" style="height: 140px;"></textarea>
-                          <label for="question">Write your message here</label>
-                      </div>
-
-                      <div class="mb-4 text-center">
-                          <button type="submit" class="btn btn-secondary">Submit</button>
-                      </div>
-
-                  </form>
-              </div>
+          <div class="mb-4 text-center">
+            <button type="submit" class="btn btn-secondary">Submit</button>
           </div>
+
+        </form>
       </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="container-fluid bg-secondary pt-5 text-light">
+    <div class="row px-5">
+
+      <div class="col-lg-3 col-md-6 col-sm-6">
+          <h2 class="mb-4 font-logo">Project Gutenberg</h2>
+          <p>Project Gutenberg is an online
+            library of free eBooks. Michael Hart, founder of Project Gutenberg, invented eBooks in 1971 and his memory
+            continues to inspire the creation of eBooks and related content today.
+          </p>
+      </div>
+
+      <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
+          <h6 class="footer-h6">About us</h6>
+          <ul>
+            <li><a href="#" class="plain-white">About Project Gutenberg</a></li>
+            <li><a href="#" class="plain-white">Permissions & License</a></li>
+            <li><a href="#" class="plain-white">Privacy policy</a></li>
+            <li><a href="#" class="plain-white">Terms of Use</a></li>
+          </ul>
+      </div>
+
+      <div class="col-lg-2  col-md-3 col-sm-6 mb-2">
+          <h6 class="footer-h6">Help</h6>
+          <ul>
+            <li><a href="contact.html" class="plain-white">FAQ</a></li>
+            <li><a href="contact.html" class="plain-white">Contact us</a></li>
+            <li><a href="#" class="plain-white">Get published</a></li>
+            <li><a href="#" class="plain-white">Copyright Procedures</a></li>
+          </ul>
+      </div>
+
+      <div class="col-lg-3 offset-lg-1 col-md-6 col-sm-6">
+          <h6 class="footer-h6">Get news and updates</h6>
+          <div>
+            Social Media
+            <a href="#" class="plain-white"><i class="fa-brands fa-twitter"></a></i>
+            <a href="#" class="plain-white"><i class="fa-brands fa-facebook"></i></a>
+          </div>
+          <form>
+            <div>
+              <label for="exampleFormControlInput1" class="form-label">
+                <p>Newsletter</p>
+              </label>
+            </div>
+
+            <div class="input-group mb-3">
+              <input type="email" class="form-control" placeholder="Enter your email" aria-label="Enter your email"
+                aria-describedby="button-addon2">
+              <button class="btn btn-light" type="button" id="button-addon2"><i class="fa fa-envelope"></i></button>
+            </div>
+          </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+          <p>Copyright &copy; 2022 All rights reserved | Project Gutenberg</p>
+      </div>
+    </div>
+  </div>
 </body>

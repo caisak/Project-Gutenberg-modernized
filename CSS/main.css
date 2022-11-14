@@ -26,3 +26,9 @@ a {
 i {
     color: black;
 }
+
+.plain-white {
+    text-decoration: none;
+    color: white;
+}
+

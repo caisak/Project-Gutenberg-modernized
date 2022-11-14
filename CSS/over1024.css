@@ -1,7 +1,8 @@
 @media (min-width: 1024px) { /* DESKTOP STYLING */
 
+}
 
-
-
-
+/*FOOTER STYLING*/
+.footer-h6 {
+    text-transform: uppercase;
 }
