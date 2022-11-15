@@ -17,6 +17,8 @@ Requirements:
 
 Note that this was a group assignment but my partner was sick and couldn't participate as much as planned. My partner did the contact form and footer, the rest is made by me.
 
+We recieved the grade pass with distinction (VG in swedish) which was the highest grade available for this assignment.
+
 
 ## The Project
 
