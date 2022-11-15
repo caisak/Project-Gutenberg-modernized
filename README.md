@@ -1,41 +1,57 @@
-# Inlämning 2
+# Project Gutenberg Modernized
 
-## Projektets namn: Project Gutenberg
+## Assignment
 
-hejhej
-Projektbeskrivning:
-Vi har valt hemsidan https://www.gutenberg.org/. Vi valde den för att den är en fantastiskt resurs som hade kunnat göras mer användarvänlig och modern. Hemsidan är rörig och har inte särskilt strukturerat innehåll.
+This was our second school assignment for the HTML & CSS course. The assignment was to modernize a website that was completely or partially non-responsive. 
 
-Hemsidan är någorlunda responsiv i navbaren, menyn går in i en dropdown i mobilversionen. Däremot är inte allt innehåll responsivt, som till exempel karusellen med böcker eller loggan.
+Requirements:
+* Two HTML files that can be navigated back and forth
+* At least two CSS files
+* Everythings needs to be responsive and not disappear off-screen
+* An icon set must be linked in the head tag and used at least twice
+* Animations on both pages
+* Bootstrap or Tailwind must be used
+* The code needs to be properly structured and commented
+* Screen grabs of the original website included in the PowerPoint
 
-Vi har inspirerats av https://www.nextory.se/ för framsidan med stora, färgglada bilder och rubriker med lite information i.
+Note that this was a group assignment but my partner was sick and couldn't participate as much as planned. My partner did the contact form and footer, the rest is made by me.
 
-Även https://www.adlibris.com/se har varit inspiration med deras sektion av ikoner med länk till olika kategorier av produkter. Både Nextory och Adlibris har bara använts som "ytlig" inspiration, vi har alltså inte gått in i DevTools för att ganska deras kod som på förra uppgiften. Inspirationen kan hittas i PowerPoint presentationen!
 
-Avgränsningar:
-Det finns inget "Kontakta oss" formulär men vi valde att ta med det då uppgiften kräver det (och det borde finnas). FAQ delen har med två rubriker och utvalda frågor i en accordion. Alla frågor och rubriker är inte med eftersom det blir upprepande. 
+## The Project
 
-Vi valde att göra en del av framsidan men att anpassa och komprimera innehåll, samt modernisera med bilder/svg och mer modernt klyschigt språk. Ett exempel är "Donate" som blir "Give Back".
+We chose the website https://www.gutenberg.org/ because it's an amazing resource that could be made more user friendly and modern. The website is difficult to navigate because of the unstructured content. 
 
-Styckena med text på Project Gutenbergs hemsida har kortats ner och fått kitschiga, moderna rubriker. Donate har exempelvis blivit "Give back" och fått knappen "Join our Community" eftersom det både är ett populärt ord och koncept att tänka kring och använda onlina.
+The navbar is somewhat responsive - it turns into a dropdown menu for the mobile version. Not everything is responsive though, such as the logo or the book carousel on the home page. 
 
-"No special apps needed!" har blivit "Read Your Own Way" och de stora styckena med text har kortats ner till två korta paragrafer passande för 7-sekunders-uppmärksamhet-tik-tok-generationen.
+We took inspiration from websites like https://www.nextory.se/ for the informational pieces on the front page with it's large, colorful graphics. https://www.adlibris.com/se inspired the categorization of products in cards with an icon. 
 
-Utmaningar:
-Bilder kändes inte riktigt rätt så istället användes svg och ikoner, men de har gett en ganska opersonlig och "corporate" ansiktlöst intryck.
+Both of the websites mentioned above have only been used as "shallow" inspiration in reference to style and categorization. We have not looked at their code in DevTools as the assignment was not to copy their website.
 
-Isabella designade en logga för projektet som var en öppen bok med "Project Gutenberg" runt den. När den skulle användas så var den väldigt tunn och syntes inte så bra, så istället användes en ikon av en öppen bok.
 
-SVGn i Showcasen ligger konstigt om man drar i sidan men för alla specifika break points så ser den bra ut.
+## Limitations
+The PowerPoint is in swedish as it was made and presented in a swedish school.
 
-Vi lyckades inte stänga första accordion biten.
+There is no "Contact us" form on the original website. There is a "Contact us" page where the user is encouraged to get in touch by email and a bullet point list of how this is done. We thought this was not user friendly and made a form instead.
 
-Det som inte fick hända hände så klart - när jag hade fått footern och tillhörande CSS fil och lade ihop det så slutade alla mina länkar och funktionaliteten att fungera. Jag har dubbelkollat alla script och popper filer är med, men jag lyckas verkligen inte hitta problemet. Har kört validering men den säger inget särskilt. Gått igenom en del av koden sida vid sida med den som fungerar.
+The FAQ section is made with an accordion to save space and give the user a quick overview. We selected the first few questions to showcase how the accordion would look and work. Including all the questions would take a lot of unnecessary time and space since the general structure and style repeats.
 
-Så jag gick i alla fall tillbaka till en tidigare version. Kl 23 dagen innan deadline, där jag absolut inte ville vara. Men this too shall pass.
+We chose to make part of the front page but adapted the content to include soulless corporate art and modernized language. "Donate" became "Give Back" for example.
 
-Grupp:
-Andersson, Isabella & Köhlin, Caisa
+The informational paragraphs on the front page have been reworked to be more short, snappy and readable for the user with a seven second attention span. The "Give Back" section has been given a "Join our Community" as the word and concept of community is popular online.
+
+## Challenges
+
+Using (free, non-licensed) images for the modernized website didn't feel quite right so icons and SVGs were used instead but they have a soulless, impersonal expression which didn't quite fit either. 
+
+My partner originally designed a logo which was an open book with the text "Project Gutenberg" around it. When we tried using it the lines were too thin and the visibility was affected so we chose to use an icon instead.
+
+The SVG in the showcase is kind of off between desktop and mobile. However, it looks fine for the specific break points for different devices.
+
+I couldn't get the accordion to be closed as default. 
+
+I ran the code through the W3C Validation Service and it hates my search button (so do I, but only kind of). I've used a span tag to get it to fit in the navbar and I understand that it may not be correct HTML practice but I couldn't get it to work in any other way.
+
+
 
 
 
