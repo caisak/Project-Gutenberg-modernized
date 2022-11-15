@@ -1,6 +1,6 @@
 # Project Gutenberg Modernized
 
-## Assignment
+## Assignment -[Click here to view in browser](https://caisak.github.io/Project-Gutenberg-modernized/)
 
 This was our second school assignment for the HTML & CSS course. The assignment was to modernize a website that was completely or partially non-responsive. 
 
